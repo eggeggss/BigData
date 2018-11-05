@@ -13,7 +13,7 @@ print("a=%d b=%f" % (a,b))
 print("a=%d b=%.1f" % (a,b))
 print("a="+str(a)+" b="+str(b)+" c="+c)
 print("a=%d b=%0.1f c=%s" % (a,b,c))
-
+print("a={:d} b={:0.1f} c={:s}".format(a,b,c))
 
 
 

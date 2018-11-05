@@ -28,3 +28,6 @@ print(list1)
 print(list1.count(1))
 print(len(list1))
 print( 1 in list1)
+
+list1.clear()
+print(not list1 )

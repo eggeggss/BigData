@@ -1,12 +1,17 @@
 #!/usr/bin/env
 
-a=2
+a=1
+b=2
 if a == 1:
    print('1')
 elif a == 2:
    print('2')
 else:
    print('3')
+
+if a==1:
+   if b==2:
+      print("a==1 and b==2")
 
 """
 a=1

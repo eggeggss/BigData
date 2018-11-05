@@ -4,8 +4,8 @@ class MyClass(object):
     def __init__(self,x,y):
         self.mMyPub=x
         self.__mMyPri=y
-
-    def funPub(self):
+    @staticmethod
+    def funPub():
         print("fun1")
 
     def __funPri(self):
@@ -14,9 +14,12 @@ class MyClass(object):
 
 
 g=MyClass(7,7)
-print(g.mMyPub)
+#print(g.mMyPub)
 #print(g.__mMyPri)
-g.funPub()
+#g.funPub()
+MyClass.mMyPub=200
+print(MyClass.mMyPub)
+print(MyClass.funPub())
 #g.__funPri()
 
 

@@ -8,7 +8,7 @@ from PIL import ImageTk, Image
 win = tk.Tk()
 
 def event1():
-	print("btn1 pressed.")
+    print("btn1 pressed.")
 
 
 

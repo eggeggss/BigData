@@ -17,6 +17,7 @@ class MyClass(object):
 
 x=1
 g=MyClass(8,8)
+#g.mX=100
 g.fun1()
 print(g.mX)
 
