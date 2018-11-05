@@ -9,4 +9,4 @@ if os.path.exists('./folder'):
 else: 
     os.mkdir('./folder')  
     os.chdir('./folder')
-    print(os.getcwd())    
+    print(os.getcwd())#取得目前路徑

@@ -5,12 +5,13 @@ __author__ = "Powen Ko, www.powenko.com"
 import xlrd
 import xlwt
 
-read=xlrd.open_workbook('workfile.xls')
+read=xlrd.open_workbook('Schools_7601262380745403745.xlsx')
 sheet=read.sheets()[0]
 #sheet=read.sheets("Sheet5")
 print(sheet.nrows)
 print(sheet.ncols)
 
+#
 print(sheet.cell(5,1).value)
 
 

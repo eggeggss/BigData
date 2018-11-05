@@ -13,10 +13,10 @@ t2=[x*2 for x in t1]
 plt.subplot(122,facecolor='y')
 plt.plot(t1, t2, 'ro')
 
-'''
+
 plt.subplot(221,facecolor='k')
 plt.plot(t2, t2, 'g--')
-
+''''''
 plt.subplot(223)
 plt.plot(t2, t2, 'b|')
 '''
